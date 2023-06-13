@@ -1,0 +1,13 @@
+name: maccontrol
+channels:
+  - conda-forge
+  - anaconda
+  - pytorch
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - pandas
+  - jupyter
+  - pip
