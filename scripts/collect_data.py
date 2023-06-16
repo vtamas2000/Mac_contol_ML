@@ -17,7 +17,7 @@ def get_agrs() -> argparse.Namespace:
         "--motion",
         type=str,
         required=True,
-        choices=["up", "down", "left", "right"],
+        choices=["up", "down", "left", "right", "default"],
         help="Which motion to capture, select from up, down, left, right",
     )
 
@@ -30,7 +30,7 @@ def get_agrs() -> argparse.Namespace:
     )
 
     parser.add_argument(
-        "-s", "--size", type=int, default=400, help="Size of the center crop"
+        "-s", "--size", type=int, default=800, help="Size of the center crop"
     )
 
     parser.add_argument(
