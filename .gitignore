@@ -1,2 +1,4 @@
 .DS_Store
 test.ipynb
+.vscode
+data
