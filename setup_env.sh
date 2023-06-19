@@ -17,3 +17,4 @@ pip install opencv-python
 pip install torch
 pip install torchvision
 pip install lightning
+pip install mlflow

@@ -26,7 +26,7 @@ def get_agrs() -> argparse.Namespace:
         "--directory",
         type=str,
         default="data",
-        help="Directory where the imagess will be saved",
+        help="Directory where the images will be saved",
     )
 
     parser.add_argument(

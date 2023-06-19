@@ -1,0 +1,10 @@
+train_size: 0.9
+batch_size: 16
+hyperparameters:
+  img_size: 800
+  num_classes: 5
+  kernel_size: 10
+  pool_size: 20
+  learning_rate: 0.05
+  conv1_out_channels: 6
+  conv2_out_channels: 10

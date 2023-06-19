@@ -2,3 +2,5 @@
 test.ipynb
 .vscode
 data
+mlruns
+saved_models
